@@ -2,9 +2,9 @@
 
 > 译者：楼兰一剑——乐视云计算大前端组  
 
-> [本文gitbook地址查阅](https://loulanyijian.gitbooks.io/vue-loader-doc-chinese/content/)
+> [gitbook快速阅读地址](https://loulanyijian.github.io/vue-loader-doc-Chinese/)
 
-> 译者注：要查看本教程，需要node全局安装gitbook —— clone到本地 —— gitbook install —— gitbook serve
+> 译者注：要本地查看本教程，需要npm全局安装gitbook —— clone到本地 —— gitbook install —— gitbook serve
 
 > 原文参考：[vue-loader](https://github.com/vuejs/vue-loader)、[英文文档](http://vue-loader.vuejs.org/en/)
 
