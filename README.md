@@ -1,6 +1,8 @@
 # vue-loader 中文文档
 
-> 译者：楼兰一剑——乐视云计算大前端组  [gitbook地址查阅](https://loulanyijian.gitbooks.io/vue-loader-doc-chinese/content/)
+> 译者：楼兰一剑——乐视云计算大前端组  
+
+> [本文gitbook地址查阅](https://loulanyijian.gitbooks.io/vue-loader-doc-chinese/content/)
 
 > 译者注：要查看本教程，需要node全局安装gitbook —— clone到本地 —— gitbook install —— gitbook serve
 
