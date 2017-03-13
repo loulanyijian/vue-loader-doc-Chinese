@@ -4,6 +4,8 @@
 
 > 译者注：要查看本教程，需要node全局安装gitbook —— clone到本地 —— gitbook install —— gitbook serve
 
+> 原文参考：[vue-loader](https://github.com/vuejs/vue-loader)、[英文文档](http://vue-loader.vuejs.org/en/)
+
 ### 什么是 `vue-loader`?
 
 `vue-loader` 是一个Webpack的加载器，它可以将如下格式书写的Vue组件编译成普通的JavaScript模块:
