@@ -1,0 +1,606 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>先进的loader配置 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-vuejs/vue.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="extract-css.html" />
+    
+    
+    <link rel="prev" href="asset-url.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    vue-loader 中文文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    开始
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../start/spec.html">
+            
+                <a href="../start/spec.html">
+            
+                    
+                    vue组件规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../start/setup.html">
+            
+                <a href="../start/setup.html">
+            
+                    
+                    建立一个项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    特征
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../features/es2015.html">
+            
+                <a href="../features/es2015.html">
+            
+                    
+                    ES2015
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../features/scoped-css.html">
+            
+                <a href="../features/scoped-css.html">
+            
+                    
+                    CSS作用域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../features/css-modules.html">
+            
+                <a href="../features/css-modules.html">
+            
+                    
+                    CSS Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../features/postcss.html">
+            
+                <a href="../features/postcss.html">
+            
+                    
+                    PostCSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../features/hot-reload.html">
+            
+                <a href="../features/hot-reload.html">
+            
+                    
+                    热更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    配置项
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="pre-processors.html">
+            
+                <a href="pre-processors.html">
+            
+                    
+                    预处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="asset-url.html">
+            
+                <a href="asset-url.html">
+            
+                    
+                    处理资源url
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.3" data-path="advanced.html">
+            
+                <a href="advanced.html">
+            
+                    
+                    先进的loader配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="extract-css.html">
+            
+                <a href="extract-css.html">
+            
+                    
+                    提取css文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="custom-blocks.html">
+            
+                <a href="custom-blocks.html">
+            
+                    
+                    自定义模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    工作流
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../workflow/production.html">
+            
+                <a href="../workflow/production.html">
+            
+                    
+                    生产环境构建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../workflow/linting.html">
+            
+                <a href="../workflow/linting.html">
+            
+                    
+                    语法风格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../workflow/testing.html">
+            
+                <a href="../workflow/testing.html">
+            
+                    
+                    测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../workflow/testing-with-mocks.html">
+            
+                <a href="../workflow/testing-with-mocks.html">
+            
+                    
+                    模拟器测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../options.html">
+            
+                <a href="../options.html">
+            
+                    
+                    参考选项
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >先进的loader配置</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5148;&#x8FDB;&#x7684;loader&#x914D;&#x7F6E;">&#x5148;&#x8FDB;&#x7684;Loader&#x914D;&#x7F6E;</h1>
+<p>&#x6709;&#x65F6;&#x5019;&#x4F60;&#x53EF;&#x80FD;&#x60F3;&#xFF1A;</p>
+<ol>
+<li><p>&#x5C06;&#x81EA;&#x5B9A;&#x4E49;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#x5B57;&#x7B26;&#x4E32;&#x5E94;&#x7528;&#x4E8E;&#x8BED;&#x8A00;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x8BA9;vue-loader&#x63A8;&#x65AD;&#x5B83;;</p>
+</li>
+<li><p>&#x8986;&#x76D6;&#x9ED8;&#x8BA4;&#x8BED;&#x8A00;&#x7684;&#x5185;&#x7F6E;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#x914D;&#x7F6E;;</p>
+</li>
+<li><p>&#x4F7F;&#x7528;&#x81EA;&#x5B9A;&#x4E49;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#x9884;&#x5904;&#x7406;&#x6216;&#x540E;&#x5904;&#x7406;&#x7279;&#x5B9A;&#x8BED;&#x8A00;&#x5757;&#x3002;</p>
+</li>
+</ol>
+<p>&#x4E3A;&#x6B64;&#xFF0C;&#x4E3A;<code>vue-loader</code>&#x6307;&#x5B9A;<code>loaders</code>&#x9009;&#x9879;&#xFF1A;</p>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF0C;<code>preLoaders</code>&#x548C;<code>postLoaders</code>&#x53EA;&#x5728; &gt;=10.3.0&#x4E2D;&#x652F;&#x6301;</p>
+</blockquote>
+<h3 id="webpack-2x">Webpack 2.x</h3>
+<pre><code class="lang-js"><span class="hljs-built_in">module</span>.exports = {
+  <span class="hljs-comment">// &#x5176;&#x4F59;&#x9009;&#x9879;...</span>
+  <span class="hljs-built_in">module</span>: {
+    <span class="hljs-comment">// module.rules&#x4E0E;1.x&#x4E2D;&#x7684;module.loaders&#x76F8;&#x540C;</span>
+    rules: [
+      {
+        test: <span class="hljs-regexp">/\.vue$/</span>,
+        loader: <span class="hljs-string">&apos;vue-loader&apos;</span>,
+        options: {
+          <span class="hljs-comment">//`loaders`&#x5C06;&#x8986;&#x76D6;&#x9ED8;&#x8BA4;&#x52A0;&#x8F7D;&#x5668;&#x3002;</span>
+          <span class="hljs-comment">//&#x4EE5;&#x4E0B;&#x914D;&#x7F6E;&#x5C06;&#x5BFC;&#x81F4;&#x6240;&#x6709;&lt;script&gt;&#x6807;&#x7B7E;&#x6CA1;&#x6709;&#x201C;lang&#x201D;</span>
+          <span class="hljs-comment">//&#x5C5E;&#x6027;&#x5C06;&#x901A;&#x8FC7;coffee-loader&#x52A0;&#x8F7D;</span>
+          loaders: {
+            js: <span class="hljs-string">&apos;coffee-loader&apos;</span>
+          },
+
+          <span class="hljs-comment">//`preLoaders`&#x9644;&#x52A0;&#x5728;&#x9ED8;&#x8BA4;&#x52A0;&#x8F7D;&#x5668;&#x4E4B;&#x524D;&#x3002;</span>
+          <span class="hljs-comment">//&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5B83;&#x6765;&#x9884;&#x5904;&#x7406;&#x8BED;&#x8A00;&#x5757; - &#x4E00;&#x79CD;&#x5E38;&#x89C1;&#x7684;&#x7528;&#x6CD5;</span>
+          <span class="hljs-comment">// case&#x5C06;&#x662F;&#x6784;&#x5EFA;&#x65F6;&#x95F4;i18n&#x3002;</span>
+          preLoaders: {
+            js: <span class="hljs-string">&apos;/path/to/custom/loader&apos;</span>
+          },
+
+          <span class="hljs-comment">//`postLoaders`&#x9644;&#x52A0;&#x5728;&#x9ED8;&#x8BA4;&#x52A0;&#x8F7D;&#x5668;&#x4E4B;&#x540E;&#x3002;</span>
+          <span class="hljs-comment">//</span>
+          <span class="hljs-comment">// - &#x5BF9;&#x4E8E;`html`&#xFF0C;&#x9ED8;&#x8BA4;&#x52A0;&#x8F7D;&#x5668;&#x8FD4;&#x56DE;&#x7684;&#x7ED3;&#x679C;</span>
+          <span class="hljs-comment">//   &#x5C06;&#x7F16;&#x8BD1;&#x7684;JavaScript&#x6E32;&#x67D3;&#x51FD;&#x6570;&#x4EE3;&#x7801;&#x3002;</span>
+          <span class="hljs-comment">//</span>
+          <span class="hljs-comment">// - &#x5BF9;&#x4E8E;`css`&#xFF0C;&#x7ED3;&#x679C;&#x5C06;&#x7531;vue-style-loader&#x8FD4;&#x56DE;</span>
+          <span class="hljs-comment">//   &#x8FD9;&#x5728;&#x5927;&#x591A;&#x6570;&#x60C5;&#x51B5;&#x4E0B;&#x4E0D;&#x662F;&#x7279;&#x522B;&#x6709;&#x7528;&#x3002; &#x4F7F;&#x7528;postcss</span>
+          <span class="hljs-comment">//   &#x63D2;&#x4EF6;&#x5C06;&#x662F;&#x4E00;&#x4E2A;&#x66F4;&#x597D;&#x7684;&#x9009;&#x62E9;&#x3002;</span>
+          postLoaders: {
+            html: <span class="hljs-string">&apos;babel-loader&apos;</span>
+          }
+        }
+      }
+    ]
+  }
+}
+</code></pre>
+<h3 id="webpack-1x">Webpack 1.x</h3>
+<pre><code class="lang-js"><span class="hljs-comment">// webpack.config.js</span>
+<span class="hljs-built_in">module</span>.exports = {
+  <span class="hljs-comment">// &#x5176;&#x4F59;&#x914D;&#x7F6E;&#x9879;...</span>
+  <span class="hljs-built_in">module</span>: {
+    loaders: [
+      {
+        test: <span class="hljs-regexp">/\.vue$/</span>,
+        loader: <span class="hljs-string">&apos;vue&apos;</span>
+      }
+    ]
+  },
+  <span class="hljs-comment">// vue-loader &#x914D;&#x7F6E;</span>
+  vue: {
+    loaders: {
+      <span class="hljs-comment">// &#x4E0E;&#x4E0A;&#x9762;&#x76F8;&#x540C;&#x7684;&#x914D;&#x7F6E;</span>
+    }
+  }
+}
+</code></pre>
+<p>&#x9AD8;&#x7EA7;&#x52A0;&#x8F7D;&#x5668;&#x914D;&#x7F6E;&#x7684;&#x66F4;&#x5B9E;&#x9645;&#x7528;&#x6CD5;&#x662F;<a href="extract-css.html">&#x5C06;&#x7EC4;&#x4EF6;&#x5185;&#x90E8;&#x7684;CSS&#x63D0;&#x53D6;&#x5230;&#x5355;&#x4E2A;&#x6587;&#x4EF6;&#x4E2D;</a>&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="asset-url.html" class="navigation navigation-prev " aria-label="Previous page: 处理资源url">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="extract-css.html" class="navigation navigation-next " aria-label="Next page: 提取css文件">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"先进的loader配置","level":"1.4.3","depth":2,"next":{"title":"提取css文件","level":"1.4.4","depth":2,"path":"configurations/extract-css.md","ref":"configurations/extract-css.md","articles":[]},"previous":{"title":"处理资源url","level":"1.4.2","depth":2,"path":"configurations/asset-url.md","ref":"configurations/asset-url.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","theme-vuejs@git+https://github.com/pearofducks/gitbook-plugin-theme-vuejs.git","-fontsettings","github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/loulanyijian/vue-loader-doc-Chinese/blob/master"},"github":{"url":"https://github.com/loulanyijian/vue-loader-doc-Chinese"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-vuejs":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"links":{"sharing":{"facebook":false,"twitter":false}},"gitbook":">3.0.0"},"file":{"path":"configurations/advanced.md","mtime":"2017-02-14T06:41:38.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-13T10:33:14.956Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
