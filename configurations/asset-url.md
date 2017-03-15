@@ -1,6 +1,6 @@
 # 资源url处理
 
-默认情况下，`vue-loader'使用[css-loader](https://github.com/webpack/css-loader) 和Vue模板编译器自动处理你的样式和模板文件。
+默认情况下，`vue-loader`使用[css-loader](https://github.com/webpack/css-loader) 和Vue模板编译器自动处理你的样式和模板文件。
 在这个编译过程中，所有的资源URL，例如 img src="...", `background：url（...）`和CSS`@import`**被解析为模块依赖**。
 
 例如，url（./ image.png）将被翻译为require（'./ image.png'）和
